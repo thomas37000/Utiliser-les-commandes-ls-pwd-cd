@@ -1,0 +1,50 @@
+Installing, this may take a few minutes...
+Please create a default UNIX user account. The username does not need to match your Windows username.
+For more information visit: https://aka.ms/wslusers
+Enter new UNIX username: thomas
+Enter new UNIX password:
+Retype new UNIX password:
+Sorry, passwords do not match
+passwd: Authentication token manipulation error
+passwd: password unchanged
+Try again? [y/N] y
+Enter new UNIX password:
+Retype new UNIX password:
+passwd: password updated successfully
+Installation successful!
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+thomas@LAPTOP-ILMJ643D:~$ ls
+thomas@LAPTOP-ILMJ643D:~$ pwd
+/home/thomas
+thomas@LAPTOP-ILMJ643D:~$ ls
+thomas@LAPTOP-ILMJ643D:~$ ls images
+ls: cannot access 'images': No such file or directory
+thomas@LAPTOP-ILMJ643D:~$ pwd
+/home/thomas
+thomas@LAPTOP-ILMJ643D:~$ cd
+thomas@LAPTOP-ILMJ643D:~$ cd Images
+-bash: cd: Images: No such file or directory
+thomas@LAPTOP-ILMJ643D:~$ cd ..
+thomas@LAPTOP-ILMJ643D:/home$ pwd
+/home
+thomas@LAPTOP-ILMJ643D:/home$ cd ..
+thomas@LAPTOP-ILMJ643D:/$ pwd
+/
+thomas@LAPTOP-ILMJ643D:/$ ls
+bin  boot  dev  etc  home  init  lib  lib64  media  mnt  opt  proc  root  run  sbin  snap  srv  sys  tmp  usr  var
+thomas@LAPTOP-ILMJ643D:/$ cd home/thomas
+thomas@LAPTOP-ILMJ643D:~$ pwd
+/home/thomas
+thomas@LAPTOP-ILMJ643D:~$ cd Images
+-bash: cd: Images: No such file or directory
+thomas@LAPTOP-ILMJ643D:~$ cd Musique
+-bash: cd: Musique: No such file or directory
+thomas@LAPTOP-ILMJ643D:~$ ls
+thomas@LAPTOP-ILMJ643D:~$ cd
+thomas@LAPTOP-ILMJ643D:~$ mkdir Images
+thomas@LAPTOP-ILMJ643D:~$ mkdir Musique
+thomas@LAPTOP-ILMJ643D:~$ ls
+Images  Musique
+thomas@LAPTOP-ILMJ643D:~$ t
